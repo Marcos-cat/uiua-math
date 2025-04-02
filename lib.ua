@@ -376,9 +376,7 @@ Quad ← ⍥R⌵↥0:⊟⊃-+⊙:√⟜±-:⤚°√ℂ0¯÷2∩⌞÷
   ⍤⤙≍ ∩⍆ [ℂ3 ¯1 ℂ¯1 2] ⁅₃ Quad 1 ℂ¯2 ¯1 ℂ7 1
 └─╴
 
-# Polynomial Division
-# 
-# Uses polynolial long division
+# Polynomial long division
 # 
 # Inputs are highest-degree term to constant
 # Remainder Quotient ? Denominator Numerator

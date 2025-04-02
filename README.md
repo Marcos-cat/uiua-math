@@ -60,6 +60,7 @@ Functions list (see in-code documentation for more detail)
 | `NormalCdf` | Cumulative normal distribution |
 | `Perms` | Permutations of N items |
 | `Quad` | Po-Shen quadratic solver |
+| `PolyDiv` | Polynomial division |
 | `PSet` | Powerset of a list |
 | `RPFFT` | Rank-polymorphic fast fourier transform |
 | `FFTConvolve` | Rank-polymorphic convolution using fast fourier transform |

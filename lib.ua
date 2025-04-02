@@ -376,6 +376,20 @@ Quad ← ⍥R⌵↥0:⊟⊃-+⊙:√⟜±-:⤚°√ℂ0¯÷2∩⌞÷
   ⍤⤙≍ ∩⍆ [ℂ3 ¯1 ℂ¯1 2] ⁅₃ Quad 1 ℂ¯2 ¯1 ℂ7 1
 └─╴
 
+# Polynomial Division
+# 
+# Uses polynolial long division
+# 
+# Inputs are highest-degree term to constant
+# Remainder Quotient ? Denominator Numerator
+PolyDiv ← ◌⍢⟜(↘₁⬚0-×⟜⍜⊙⋅⋅∘˜⊂÷◡∩⊢)(≥∩⧻)⊙⊙[]
+
+┌─╴test
+  ⍤⤙≍ {[5] [1 1 3]} {PolyDiv} [1 ¯3] [1 ¯2 0 ¯4]
+  ⍤⤙≍ {[55] [2 4 11 27]} {PolyDiv} [1 ¯2] [2 0 3 5 1]
+  ⍤⤙≍ {[16 ¯81] [1 ¯13]} {PolyDiv} [1 1 ¯3] [1 ¯12 0 ¯42]
+└─╴
+
 # Powerset of a list
 PSet ← ⍚▽⋯⇡ⁿ:2⧻⟜¤
 
